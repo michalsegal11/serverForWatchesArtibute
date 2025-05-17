@@ -1,0 +1,65 @@
+[
+  {
+    "user_id": 1,
+    "cart_items": [
+      {
+        "product_id": "2",
+        "quantity": 1
+      },
+      {
+        "product_id": "5",
+        "quantity": 1
+      },
+      {
+        "product_id": "5",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "cart_items": [
+      {
+        "product_id": "6",
+        "name": "קסיו G-Shock",
+        "price": 650,
+        "discount_percentage": 0,
+        "final_price": 650
+      },
+      {
+        "product_id": "9",
+        "name": "סמסונג גלקסי ווטש 5",
+        "price": 1200,
+        "discount_percentage": 20,
+        "final_price": 960
+      },
+      {
+        "product_id": "10",
+        "name": "ציטיזן אקו-דרייב",
+        "price": 3200,
+        "discount_percentage": 0,
+        "final_price": 3200
+      }
+    ]
+  },
+  {
+    "user_id": 3,
+    "cart_items": [
+      {
+        "product_id": "4",
+        "name": "סייקו פרוספקס",
+        "price": 4500,
+        "discount_percentage": 0,
+        "final_price": 4500
+      },
+      {
+        "product_id": "8",
+        "name": "טיסו קלאסיק",
+        "price": 2200,
+        "discount_percentage": 5,
+        "final_price": 2090
+      }
+    ]
+  },
+  {}
+]
