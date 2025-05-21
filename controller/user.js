@@ -21,7 +21,7 @@ exports.getById = (req, res) => {
             let id = req.params.id;
 
             data = JSON.parse(data);
-            let user = data.find(st => st.id == id)
+            let user = data.find(st => st.email == id)
 
             if (user == undefined) {
                 res.status(500).send("not found student by tz " + id);

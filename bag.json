@@ -1,65 +1,70 @@
 [
   {
-    "user_id": 1,
+    "user_id": "michal.sal11@gmail.com",
     "cart_items": [
       {
-        "product_id": "2",
-        "quantity": 1
+        "id": 5,
+        "quantity": 2,
+        "name": "Urban Minimal",
+        "price": 399.99,
+        "discount_percentage": 12,
+        "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "final_price": 399
       },
       {
-        "product_id": "5",
-        "quantity": 1
+        "id": 6,
+        "quantity": 1,
+        "name": "Mountain Explorer",
+        "price": 599.49,
+        "discount_percentage": 8,
+        "image_url": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "final_price": 599
       },
       {
-        "product_id": "5",
-        "quantity": 1
+        "id": 2,
+        "quantity": 3,
+        "name": "Diver Professional",
+        "price": 899.99,
+        "discount_percentage": 15,
+        "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314",
+        "final_price": 899
+      },
+      {
+        "id": 1,
+        "quantity": 5,
+        "name": "Elegant Leather",
+        "price": 249.99,
+        "discount_percentage": 10,
+        "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+        "final_price": 249
       }
-    ]
-  },
-  {
-    "user_id": 2,
-    "cart_items": [
-      {
-        "product_id": "6",
-        "name": "קסיו G-Shock",
-        "price": 650,
-        "discount_percentage": 0,
-        "final_price": 650
-      },
-      {
-        "product_id": "9",
-        "name": "סמסונג גלקסי ווטש 5",
-        "price": 1200,
-        "discount_percentage": 20,
-        "final_price": 960
-      },
-      {
-        "product_id": "10",
-        "name": "ציטיזן אקו-דרייב",
-        "price": 3200,
-        "discount_percentage": 0,
-        "final_price": 3200
-      }
-    ]
+    ],
+    "quantity": 2
   },
   {
     "user_id": 3,
     "cart_items": [
       {
-        "product_id": "4",
+        "id": 4,
         "name": "סייקו פרוספקס",
         "price": 4500,
         "discount_percentage": 0,
+        "quantity": 1,
+        "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
         "final_price": 4500
       },
       {
-        "product_id": "8",
+        "id": 8,
         "name": "טיסו קלאסיק",
         "price": 2200,
         "discount_percentage": 5,
+        "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+        "quantity": 1,
         "final_price": 2090
       }
     ]
   },
-  {}
+  {
+    "cart_items": []
+  }
 ]
