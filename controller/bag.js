@@ -56,10 +56,12 @@ exports.addItemToBag = (req, res) => {
 
 exports.addBag = (req, res) => {
     const bag = readBagData();
+    console.log(req.body.userId);
     const newItem = {
-      user_id:req.body.user_id,
+      user_id:req.body.userId,
       cart_items:[],
     };
+    
     bag.push(newItem);
     writeBagData(bag);
     res.status(201).json({ message: 'סל נוסף', item: newItem });
@@ -84,14 +86,14 @@ exports.updateBagItem = (req, res) => {
 
 exports.deleteBag = (req, res) => {
     let bag = readBagData();
-    const itemId = parseInt(req.params.id);
-    const index = bag.findIndex((i) => i.id === itemId);
+    const itemId = (req.params.id);
+    const index = bag.findIndex((i) => i.user_id === itemId);
   
     if (index === -1) return res.status(404).json({ message: 'לא נמצא פריט למחיקה' });
   
-    const deleted = bag.splice(index, 1);
+    bag[index].cart_items=[];
     writeBagData(bag);
-    res.json({ message: 'הפריט נמחק', deleted });
+    res.json({ message: 'כל פרטי הסל נמחקו', bag: bag[index] });
   };
 
   exports.deleteBagItem = (req, res) => {

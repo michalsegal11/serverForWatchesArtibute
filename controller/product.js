@@ -77,18 +77,16 @@ exports.addProduct = (req, res) => {
 exports.updateProduct = (req, res) => {
   const products = readProductData();
   const itemId = parseInt(req.params.id);
-  const item = products.find((i) => i.id === itemId);
+  const item = products.find((i) => i.id == itemId);
 
   if (!item) return res.status(404).json({ message: 'לא נמצא פריט עם מזהה זה' });
 
-  item.name = req.body.name || item.name;
-  item.quantity = req.body.quantity || item.quantity;
-  item.price = req.body.price || item.price;
-  item.id=req.body.id || item.id;
-  req.body.image_url || item.image_url;
-  req.body.inStock || item.inStock;
-  req.body.category || item.category;
-  req.body.discount_percentage || item.discount_percentage;
+  if (req.body.inStock !== undefined) item.inStock = req.body.inStock;
+  if (req.body.name !== undefined) item.name = req.body.name;
+  if (req.body.price !== undefined) item.price = req.body.price;
+  if (req.body.id !== undefined) item.id = req.body.id;
+  
+
   
   writeProductData(products);
   res.json({ message: 'הפריט עודכן', item });

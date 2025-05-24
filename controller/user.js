@@ -42,7 +42,7 @@ exports.login = (req, res) => {
         } else {
             let user = req.body
             data = JSON.parse(data);
-            let currentUser = data.find(st => st.password == user.password)
+            let currentUser = data.find(st => st.email == user.email)
 
             if (currentUser == undefined) {
                 res.status(500).send("user isn't exist!, please register");

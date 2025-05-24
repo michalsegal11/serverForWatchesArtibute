@@ -5,7 +5,7 @@
     "brand": "TimeCrafters",
     "price": 249.99,
     "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-    "inStock": true,
+    "inStock": 1,
     "category": "Classic",
     "discount_percentage": 10
   },
@@ -15,7 +15,7 @@
     "brand": "Aquamaster",
     "price": 899.99,
     "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314",
-    "inStock": true,
+    "inStock": 0,
     "category": "Sports",
     "discount_percentage": 15
   },
@@ -25,7 +25,7 @@
     "brand": "FutureTech",
     "price": 1299.49,
     "image_url": "https://images.unsplash.com/photo-1596460107916-430662021049?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 14,
     "category": "Smart",
     "discount_percentage": 5
   },
@@ -35,7 +35,7 @@
     "brand": "RoyalTime",
     "price": 2049.95,
     "image_url": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 18,
     "category": "Luxury",
     "discount_percentage": 20
   },
@@ -45,7 +45,7 @@
     "brand": "MetroTick",
     "price": 399.99,
     "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Casual",
     "discount_percentage": 12
   },
@@ -55,7 +55,7 @@
     "brand": "TrailBlaze",
     "price": 599.49,
     "image_url": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 18,
     "category": "Outdoor",
     "discount_percentage": 8
   },
@@ -65,7 +65,7 @@
     "brand": "Eleganza",
     "price": 749,
     "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-    "inStock": true,
+    "inStock": 20,
     "category": "Classic",
     "discount_percentage": 10
   },
@@ -75,7 +75,7 @@
     "brand": "PrecisionCo",
     "price": 1149.9,
     "image_url": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Sports",
     "discount_percentage": 18
   },
@@ -85,7 +85,7 @@
     "brand": "FutureTech",
     "price": 1299.49,
     "image_url": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Smart",
     "discount_percentage": 5
   },
@@ -95,7 +95,7 @@
     "brand": "RoyalTime",
     "price": 2049.95,
     "image_url": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Luxury",
     "discount_percentage": 20
   },
@@ -105,7 +105,7 @@
     "brand": "MetroTick",
     "price": 399.99,
     "image_url": "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Casual",
     "discount_percentage": 12
   },
@@ -115,7 +115,7 @@
     "brand": "TrailBlaze",
     "price": 599.49,
     "image_url": "https://images.unsplash.com/photo-1548169874-53e85f753f1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Outdoor",
     "discount_percentage": 8
   },
@@ -125,7 +125,7 @@
     "brand": "Eleganza",
     "price": 749,
     "image_url": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Classic",
     "discount_percentage": 10
   },
@@ -135,7 +135,7 @@
     "brand": "PrecisionCo",
     "price": 1149.9,
     "image_url": "https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": true,
+    "inStock": 20,
     "category": "Sports",
     "discount_percentage": 18
   }
