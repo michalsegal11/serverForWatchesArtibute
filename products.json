@@ -2,10 +2,10 @@
   {
     "id": 1,
     "name": "Elegant Leather",
-    "brand": "TimeCrafters",
+    "brand": "Casio",
     "price": 249.99,
     "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-    "inStock": 1,
+    "inStock": "8",
     "category": "Classic",
     "discount_percentage": 10
   },
@@ -135,7 +135,7 @@
     "brand": "PrecisionCo",
     "price": 1149.9,
     "image_url": "https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "inStock": 20,
+    "inStock": 25,
     "category": "Sports",
     "discount_percentage": 18
   }
